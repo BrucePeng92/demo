@@ -2,12 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
+
+    <title>test</title>
+
   </head>
   <body>
     <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
+<script>
+window.onload = function() {
+  // 在页面加载完成后执行的代码
+  const schemeurl ='taobao://detail.tmall.com/item.htm?id=632351705697'
+  const pdd='pinduoduo://com.xunmeng.pinduoduo/goods1.html?goods_id=565317336937&page_from=35&pxq_secret_key=HOSL36EHDLJPOLSPC33V6NWO6D52VFCOPBMHUGW6Y4AAZDZU7TIQ&_oak_share_snapshot_num=2880&_oak_share_detail_id=4231709912&_oak_share_time=1710169372&share_uin=Q77Z4RCZRZ6KT4TWIMDHGXFJNQ_GEXDA&refer_share_id=d29839fb9f974c36891f20faeea4753f&refer_share_uin=Q77Z4RCZRZ6KT4TWIMDHGXFJNQ_GEXDA&refer_share_channel=copy_link&refer_share_form=text'
+  location.href=pdd
+};
+
+function toTaobao(){
+    location.href=schemeurl
+}
+</script>
